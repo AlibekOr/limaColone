@@ -1,10 +1,11 @@
-import { Text, View} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import NavigationRoot from './src/core/navigation/navigation-root.tsx';
 
 function App() {
   return (
-    <View>
-      <Text>hello world</Text>
-    </View>
+    <NavigationContainer>
+      <NavigationRoot />
+    </NavigationContainer>
   );
 }
 
